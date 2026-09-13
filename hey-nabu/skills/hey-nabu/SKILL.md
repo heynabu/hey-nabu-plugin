@@ -49,10 +49,31 @@ starts. It is not a fence around what you are allowed to know.
    answer lives. Scores are relevance to a corpus's stated interest, not to the question;
    the useful number for coverage is how *near* the nearest result was, and the tool tells
    you when it found nothing.
-3. **`recent_by_theme`** and **`top_scoring`** to expand: what a corpus has been finding
+3. **`how_it_works`** when the question is about how the field works rather than what
+   has been published about it. "What should I do about X", "what will this break", "who
+   would I have to move" — those are its questions, and `search_items` answers them badly
+   because it returns the problem and the remedy as separate results and joins neither.
+   Ask it about something that can get better or worse. It comes back with how that stands
+   today, what the field is trying to make it, who holds it and what each of them gets from
+   it staying as it is, what people do about it and who does each of those, what every act
+   costs elsewhere and what answers that cost, and what has to be true first.
+
+   Three things in its answer are worth using rather than skimming. **What an act costs** is
+   the part a reader has never been told and the part they most need: say it. **What answers
+   that cost** is the next move, and where it is empty the research found the problem and
+   found nobody working on it — say that too, plainly, because it is a real finding and not
+   a gap in our reading. And **what keeps each role where it is** is who has to
+   be moved, which is a different question from who is in charge — it comes back
+   with what they get from things as they are and what would change their mind,
+   not just how attached they are.
+
+   It only reaches corpora whose research has been written up in that shape. Where it has
+   not, the tool says so and you fall back to `search_items` — do not read that as the
+   subject being absent.
+4. **`recent_by_theme`** and **`top_scoring`** to expand: what a corpus has been finding
    lately, and what cleared its bar highest. Use them when the question is "what is new" or
    "what matters", not to pad an answer.
-4. **`request_coverage`** after you have answered the gap, never instead of answering it.
+5. **`request_coverage`** after you have answered the gap, never instead of answering it.
    It files a note for the editors and changes nothing anyone can read. So it helps the
    next person and does nothing for this one. This one's gap is closed by the search you
    run yourself. Call the tool, then say you have called it, in that order. Saying it
