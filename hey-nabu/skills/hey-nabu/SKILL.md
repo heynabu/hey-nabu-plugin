@@ -217,10 +217,16 @@ there. Then `map`, `value_network`, `organisations`, `networks`, `funders`, `ini
 `events` or `research`. Every record comes with its review state, so you see the ones
 waiting as well as the ones being read.
 
-`revise_record` changes what one record says: its title, its wording, its dates. Name the
-record and the fields. It will not change what a record points at — an edge's two ends, an
-initiative's organisation — because that would make it a different record wearing the old
-one's history. To move a claim, add the record you mean and reject the one you do not.
+`revise_record` changes what one record says: its title, its wording, its dates. On a
+state, that includes what it measures, how it reads now and what it aims for. On an edge, it
+includes the sign. Name the record and the fields. It will not change what a record points
+at — an edge's two ends, an initiative's organisation — because that would make it a
+different record wearing the old one's history. To move a claim, add the record you mean and
+reject the one you do not.
+
+Read a sign against the state it points into: a minus into a state that aims down is a help.
+Which way a state aims cannot be changed here. A state that should aim the other way is a
+different state, and needs a new version of the expert.
 
 `review_records` decides who sees a record. Approving is what puts it in front of a reader.
 Rejecting takes it out of the corpus and keeps it, so the register can still say why it
