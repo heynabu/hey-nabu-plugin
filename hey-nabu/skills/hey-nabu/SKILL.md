@@ -14,10 +14,11 @@ description: >-
 
 # Hey Nabu
 
-Written against server version 0.4.0. Every tool result carries the version
-the connector is actually running; when it names a different one, this copy
-is behind and the discipline below may have moved on — refetch it from
-https://heynabu.ai/skill/SKILL.md before trusting the rest of it.
+Written against server version 0.5.0. Every tool result opens with
+`server_version`, the version the connector is actually running; when it names
+a different one, this copy is behind and the discipline below may have moved on
+— refetch it from https://heynabu.ai/skill/SKILL.md before trusting the rest of
+it.
 
 A corpus service, not a chatbot. Every answer you give is composed by you, from what the
 connector hands back: the person's own Claude is the interface, and this skill is how it
