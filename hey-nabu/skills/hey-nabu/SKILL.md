@@ -14,7 +14,7 @@ description: >-
 
 # Hey Nabu
 
-Written against server version 0.5.0. Every tool result opens with
+Written against server version 0.6.0. Every tool result opens with
 `server_version`, the version the connector is actually running; when it names
 a different one, this copy is behind and the discipline below may have moved on
 — refetch it from https://heynabu.ai/skill/SKILL.md before trusting the rest of
@@ -52,12 +52,17 @@ starts. It is not a fence around what you are allowed to know.
    you when it found nothing.
 3. **`how_it_works`** when the question is about how the field works rather than what
    has been published about it. "What should I do about X", "what will this break", "who
-   would I have to move" — those are its questions, and `search_items` answers them badly
-   because it returns the problem and the remedy as separate results and joins neither.
-   Ask it about something that can get better or worse. It comes back with how that stands
-   today, what the field is trying to make it, who holds it and what each of them gets from
-   it staying as it is, what people do about it and who does each of those, what every act
-   costs elsewhere and what answers that cost, and what has to be true first.
+   would I have to move", "what is nobody working on" — those are its questions, and
+   `search_items` answers them badly because it returns the problem and the remedy as
+   separate results and joins neither. Ask it about something that can get better or worse.
+   It comes back with how that stands today, what the field is trying to make it, who holds
+   it and what each of them gets from it staying as it is, what people do about it and who
+   does each of those, what every act costs elsewhere and what answers that cost, and what
+   has to be true first.
+
+   Every answer also names each problem in the field that the research found nobody working
+   on, whatever you asked. That list is the whole answer to "what is nobody working on". It
+   gives names only: ask about any of them by name to learn how it stands.
 
    Three things in its answer are worth using rather than skimming. **What an act costs** is
    the part a reader has never been told and the part they most need: say it. **What answers
