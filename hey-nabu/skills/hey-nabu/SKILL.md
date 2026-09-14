@@ -67,6 +67,10 @@ starts. It is not a fence around what you are allowed to know.
    with what they get from things as they are and what would change their mind,
    not just how attached they are.
 
+   An act can help some people and harm others. When an answer shows both, give both, and
+   say who each one falls on. Never weigh one against the other. That call belongs to the
+   reader.
+
    It only reaches corpora whose research has been written up in that shape. Where it has
    not, the tool says so and you fall back to `search_items` — do not read that as the
    subject being absent.
@@ -219,8 +223,9 @@ waiting as well as the ones being read.
 
 `revise_record` changes what one record says: its title, its wording, its dates. On a
 state, that includes what it measures, how it reads now and what it aims for. On an edge, it
-includes the sign. Name the record and the fields. It will not change what a record points
-at — an edge's two ends, an initiative's organisation — because that would make it a
+includes the sign and who the edge falls on. Where one act both helps and harms the same
+thing, each side needs to say who it falls on. Name the record and the fields. It will not
+change what a record points at — an edge's two ends, an initiative's organisation — because that would make it a
 different record wearing the old one's history. To move a claim, add the record you mean and
 reject the one you do not.
 
