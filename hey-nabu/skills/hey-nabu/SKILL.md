@@ -49,7 +49,13 @@ starts. It is not a fence around what you are allowed to know.
    — a second search with a sharper phrasing or one corpus — only once you know where the
    answer lives. Scores are relevance to a corpus's stated interest, not to the question;
    the useful number for coverage is how *near* the nearest result was, and the tool tells
-   you when it found nothing.
+   you when it found nothing. Beside the stories it returns the register — the map, the
+   value network, the organisations, funders, initiatives, events and sources — each hit
+   saying what kind it is, with a `facts` block holding what a reader acts on: an
+   initiative's first step and cost, an edge's sign and whether refutation held it. When
+   the question is about who holds an arrangement in place or who could move it, pass
+   `kinds: ["role", "flow"]` and read the value network alone; `["organisation",
+   "initiative"]` for who is doing the work and how to join it.
 3. **`how_it_works`** when the question is about how the field works rather than what
    has been published about it. "What should I do about X", "what will this break", "who
    would I have to move", "what is nobody working on" — those are its questions, and
