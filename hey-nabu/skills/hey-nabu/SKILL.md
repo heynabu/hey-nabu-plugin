@@ -14,7 +14,7 @@ description: >-
 
 # Hey Nabu
 
-Written against server version 0.7.0. Every tool result opens with
+Written against server version 0.8.0. Every tool result opens with
 `server_version`, the version the connector is actually running; when it names
 a different one, this copy is behind and the discipline below may have moved on
 — refetch it from https://heynabu.ai/skill/SKILL.md before trusting the rest of
@@ -231,9 +231,12 @@ trial says they belong; dismiss the rest; a dismissed source can be found again.
 ## Going through what an expert holds
 
 `read_register` returns one layer at a time, whole. Start with `summary` to see what is
-there. Then `map`, `value_network`, `organisations`, `networks`, `funders`, `initiatives`,
-`events` or `research`. Every record comes with its review state, so you see the ones
-waiting as well as the ones being read.
+there. Then `map`, `dynamics`, `value_network`, `organisations`, `networks`, `funders`,
+`initiatives`, `events` or `research`. Every record comes with its review state, so you see
+the ones waiting as well as the ones being read. `dynamics` is how the loops work on each
+other: the regimes that restore themselves when pushed, the known traps the map matches and
+the arm each is missing, and what strengthens, weakens, stops or switches each loop. A
+reading whose `basis` is `inference` is the run's reading, not the register's finding.
 
 `revise_record` changes what one record says: its title, its wording, its dates. On a
 state, that includes what it measures, how it reads now and what it aims for. On an edge, it
