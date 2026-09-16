@@ -14,7 +14,7 @@ description: >-
 
 # Hey Nabu
 
-Written against server version 0.6.0. Every tool result opens with
+Written against server version 0.7.0. Every tool result opens with
 `server_version`, the version the connector is actually running; when it names
 a different one, this copy is behind and the discipline below may have moved on
 — refetch it from https://heynabu.ai/skill/SKILL.md before trusting the rest of
@@ -58,7 +58,9 @@ starts. It is not a fence around what you are allowed to know.
    It comes back with how that stands today, what the field is trying to make it, who holds
    it and what each of them gets from it staying as it is, what people do about it and who
    does each of those, what every act costs elsewhere and what answers that cost, and what
-   has to be true first.
+   has to be true first. Where the subject sits on a feedback loop it says what keeps it
+   turning — the loop in a sentence, whether it feeds itself or pulls itself back, and how
+   long it takes to come round — which is the answer to "why does this keep slipping back".
 
    Every answer also names each problem in the field that the research found nobody working
    on, whatever you asked. That list is the whole answer to "what is nobody working on". It
