@@ -47,7 +47,9 @@ starts. It is not a fence around what you are allowed to know.
 2. **`search_items`** with no `area_id`. A question rarely belongs to one corpus, and the
    search spans every one the person can read. Search wide, scan the summaries, then narrow
    — a second search with a sharper phrasing or one corpus — only once you know where the
-   answer lives. Scores are relevance to a corpus's stated interest, not to the question;
+   answer lives. Write the query as words, not a sentence: any of them can match, and
+   the most matched come first. `"Quote a phrase"` that must appear. Start a word with
+   `-` to keep it out: `-kelp`. Scores are relevance to a corpus's stated interest, not to the question;
    the useful number for coverage is how *near* the nearest result was, and the tool tells
    you when it found nothing. Beside the stories it returns the register — the map, the
    value network, the organisations, funders, initiatives, events and sources — each hit
