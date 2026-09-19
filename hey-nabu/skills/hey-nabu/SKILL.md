@@ -14,7 +14,7 @@ description: >-
 
 # Hey Nabu
 
-Written against server version 0.8.0. Every tool result opens with
+Written against server version 0.10.0. Every tool result opens with
 `server_version`, the version the connector is actually running; when it names
 a different one, this copy is behind and the discipline below may have moved on
 — refetch it from https://heynabu.ai/skill/SKILL.md before trusting the rest of
@@ -65,10 +65,27 @@ starts. It is not a fence around what you are allowed to know.
    separate results and joins neither. Ask it about something that can get better or worse.
    It comes back with how that stands today, what the field is trying to make it, who holds
    it and what each of them gets from it staying as it is, what people do about it and who
-   does each of those, what every act costs elsewhere and what answers that cost, and what
-   has to be true first. Where the subject sits on a feedback loop it says what keeps it
+   does each of those, what is already underway on each and whether the reader could join in,
+   what every act costs elsewhere and what answers that cost, and what has to be true first. Where the subject sits on a feedback loop it says what keeps it
    turning — the loop in a sentence, whether it feeds itself or pulls itself back, and how
    long it takes to come round — which is the answer to "why does this keep slipping back".
+
+   Where the loops hold each other in place, it says more, and this is the part to reach for
+   when somebody is reviewing a proposal (will it hold?), drafting one (what would make it
+   hold?) or choosing where to act. `why_change_here_slips_back` is why a good move snaps
+   back here and which way things are going now; inside it, `what_would_make_it_hold` is what
+   moves the field out of that and the sign to watch, and `who_decides_and_how_often` is who
+   re-decides and on what clock, against how fast the system responds — the question "will a
+   two-year collaborative last" is answered there. `the_known_trap` is a pattern the map
+   matches: in plain words first, then its name, which is worth giving because a named,
+   known pattern is one the reader can defend in a room; then what the sources do not show,
+   and the usual way out. `not_yet_researched` is what nobody has looked into about the
+   subject. Say it as that — a gap in the research — and never as the field having no answer.
+
+   Each of those carries its hedges, and they travel into your answer. `stands_on` says
+   whether it rests on what the sources say or on the expert's reading of them: the second is
+   served as a reading, so say "the expert reads this as" rather than stating it as found.
+   `disputed` means the checkers who read it against the sources disagreed; say so.
 
    Every answer also names each problem in the field that the research found nobody working
    on, whatever you asked. That list is the whole answer to "what is nobody working on". It
