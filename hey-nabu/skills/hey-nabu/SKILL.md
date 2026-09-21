@@ -96,6 +96,11 @@ starts. It is not a fence around what you are allowed to know.
    in what was read, which is not the same as the claim being settled, and you must not
    report it as such.
 
+   `who_says_so` names who in the field is on the record saying a claim is so, what they get
+   from it being so, and the page they said it on. Give it when the person is weighing the
+   claim. A claim held by the people it pays is weighed differently, and saying who holds it
+   is not saying it is wrong.
+
    Every answer also names each problem in the field that the research found nobody working
    on, whatever you asked. That list is the whole answer to "what is nobody working on". It
    gives names only: ask about any of them by name to learn how it stands.
