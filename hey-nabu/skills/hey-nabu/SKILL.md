@@ -87,6 +87,15 @@ starts. It is not a fence around what you are allowed to know.
    served as a reading, so say "the expert reads this as" rather than stating it as found.
    `disputed` means the checkers who read it against the sources disagreed; say so.
 
+   **`what_was_found_against` is the one a reader cannot get anywhere else.** Somebody went
+   looking to break the claim and found something: their words, and the page they read. Give
+   it beside the claim it is about and never instead of it — the claim still stands unless
+   the register says otherwise — and cite the page as you would any source. It is the
+   difference between an answer and a search result, and the reason to bring a question here
+   rather than to the open web. Where it is absent, nothing follows: no objection was found
+   in what was read, which is not the same as the claim being settled, and you must not
+   report it as such.
+
    Every answer also names each problem in the field that the research found nobody working
    on, whatever you asked. That list is the whole answer to "what is nobody working on". It
    gives names only: ask about any of them by name to learn how it stands.
