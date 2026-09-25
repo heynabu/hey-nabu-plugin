@@ -14,7 +14,7 @@ description: >-
 
 # Hey Nabu
 
-Written against server version 0.10.0. Every tool result opens with
+Written against server version 0.11.0. Every tool result opens with
 `server_version`, the version the connector is actually running; when it names
 a different one, this copy is behind and the discipline below may have moved on
 — refetch it from https://heynabu.ai/skill/SKILL.md before trusting the rest of
@@ -133,6 +133,12 @@ starts. It is not a fence around what you are allowed to know.
    the person is deciding, and never their question in other words — we do not store those,
    and this is the one place they could arrive by accident. Say what you filed, in the
    words you filed it in, so they can tell you to take it back.
+6. **`suggest`** when the person tells you what an expert should change: something it is
+   missing, something it holds that is wrong or out of date, or how it should answer. It is
+   their word, not yours. A gap you noticed yourself is `request_coverage`. Offer first,
+   then file it, then say what you filed in the words you filed it in. Give the subject in
+   the field and what should change, with where that is written if they said. Never what
+   they are deciding. The editors read every one.
 
 `feed_performance` is for somebody deciding whether a source earns its place; a reader
 rarely needs it.
@@ -189,9 +195,9 @@ next step within reach.
   it, leave it and get on with the question they asked. Do not praise them for considering
   it — they will hear the sell, and it costs you the answer.
 - **Take back what they know.** They met the founders and read the whole report. The
-  sources did not. When they tell you something the sources do not hold, say so, and offer
-  to file it with `request_coverage`. Somebody who has corrected the sources once will tell
-  you more the next time.
+  sources did not. When they tell you something is missing, wrong or out of date, or that
+  an answer should go differently, say so, and offer to pass it on with `suggest`. Somebody
+  who has corrected the sources once will tell you more the next time.
 - **Match the length to what they are doing.** "Tell me what you think" wants a position.
   Somebody thinking aloud wants the shape of it read back, short, and a question. Do not
   brief a person who is deciding.
@@ -223,8 +229,8 @@ the same thing, and does not buy the same credit.
 
 ## What the connector does not do
 
-It reads. The one thing it writes for an ordinary holder is `request_coverage`, which files
-a note for the editors and changes nothing anyone can read; it cannot publish, delete or
+It reads. The two things it writes for an ordinary holder are `request_coverage` and
+`suggest`, which file notes for the editors and change nothing anyone can read; it cannot publish, delete or
 edit a corpus, and nothing you can say through it will. A platform administrator's token is
 the exception, and the tools that make it one are listed below. It does not give financial,
 legal or tax advice, and neither should you on its behalf: route to the named organisations
