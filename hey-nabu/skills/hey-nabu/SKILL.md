@@ -241,7 +241,8 @@ depends on how far they have already got. Work that out before you offer one.
 Where an expert's definition says what counts as the whole, go by that.
 
 **Where the expert has a ladder, use it.** Call `read_ladder`, and find the stage and the
-point on the scale that match where the person stands. Offer what it lists there. Leave
+point on the scale that match where the person stands. Offer what it lists there, with
+what each asks, its first step and its cost, which come with it. Leave
 `domain` off for the part of their money that decides where they stand; ask for another
 part by name when that is the part they asked about. Where nothing is listed, or the step
 is marked empty, say so plainly: the research found nothing that takes somebody on from
