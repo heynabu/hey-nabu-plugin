@@ -247,8 +247,10 @@ what each asks, its first step and its cost, which come with it. Leave
 part by name when that is the part they asked about. Where nothing is listed, or the step
 is marked empty, say so plainly: the research found nothing that takes somebody on from
 there. That is a finding about the field, not a gap in your answer, and it is worth more
-to them than a list that pretends otherwise. Where `records_since` is above zero, the
-sources have grown since the ladder was read, so search too.
+to them than a list that pretends otherwise. Where a step lists `headwinds`, say what works
+against it, and who: a campaign, a rollback, a rule. Somebody about to take that step
+should know. Where `records_since` is above zero, the sources have grown since the
+ladder was read, so search too.
 
 Two tests decide what counts as a next step.
 
