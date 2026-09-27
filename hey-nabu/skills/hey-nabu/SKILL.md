@@ -249,8 +249,8 @@ is marked empty, say so plainly: the research found nothing that takes somebody 
 there. That is a finding about the field, not a gap in your answer, and it is worth more
 to them than a list that pretends otherwise. Where a step lists `headwinds`, say what works
 against it, and who: a campaign, a law, a trust. Somebody about to take that step
-should know. Where `records_since` is above zero, the sources have grown since the
-ladder was read, so search too.
+should know. Where `unplaced` is above zero, the expert holds initiatives or acts the
+ladder has not placed yet. Search for them too: one of them may be the next step.
 
 Two tests decide what counts as a next step.
 
