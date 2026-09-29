@@ -59,12 +59,15 @@ organisations and documents rather than answering thinly from the nearest source
 | `hey-nabu/skills/hey-nabu/SKILL.md` | How to work the sources well |
 | `hey-nabu/.mcp.json` | The connector — one HTTP server, OAuth at first use |
 
-The skill is generated from the one the app serves at `/skill/SKILL.md` — not linked,
-because that path is behind the sign-in — where a test holds it to the server's actual
-tools: it names every one and invents none. That is why this copy is
-published rather than hand-written: a skill that describes a tool the server no longer
-has is worse than no skill, and a copy taken by hand goes stale the day after it is
-taken. Refresh with `claude plugin marketplace update hey-nabu`.
+The skill is generated from the one the app serves at
+[heynabu.ai/skill/SKILL.md](https://heynabu.ai/skill/SKILL.md). That address is open
+without signing in, on purpose, so the skill can always be fetched fresh. The plugin
+still carries a copy, because a plugin holds its skill as a file, not as a link. A test
+holds the skill to the server's actual tools: it names every one and invents none. That
+is why this copy is generated rather than hand-written. A skill that describes a tool
+the server no longer has is worse than no skill, and a copy taken by hand goes stale the
+day after it is taken. If the server moves on, the copy tells Claude to fetch the new
+one from that address. Refresh with `claude plugin marketplace update hey-nabu`.
 
 ## Support
 
