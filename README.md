@@ -57,6 +57,7 @@ organisations and documents rather than answering thinly from the nearest source
 | | |
 |---|---|
 | `hey-nabu/skills/hey-nabu/SKILL.md` | How to work the sources well |
+| `hey-nabu/skills/hey-nabu/admin.md` | How to change an expert. Only an administrator's Claude reads it |
 | `hey-nabu/.mcp.json` | The connector — one HTTP server, OAuth at first use |
 
 The skill is generated from the one the app serves at
