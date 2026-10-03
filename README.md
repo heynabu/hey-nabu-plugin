@@ -47,9 +47,9 @@ the research says. It also reads what those organisations publish, so it can tel
 what changed this week. Every story has a summary written for it and a link to the
 publication.
 
-It reads. It cannot publish, delete or edit anything, and the one thing it writes on
-your behalf — asking the editors to look into a gap — changes nothing anyone can read.
-It does not give financial, legal or tax advice, and it will route you to named
+It reads. It cannot publish, delete or edit anything. It writes only notes to the
+editors: a gap it found in the sources, or a change you asked for. A note changes
+nothing anyone can read until an editor acts on it. It does not give financial, legal or tax advice, and it will route you to named
 organisations and documents rather than answering thinly from the nearest source.
 
 ## What is in it
