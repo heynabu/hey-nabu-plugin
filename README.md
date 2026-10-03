@@ -7,16 +7,19 @@ regeneration, bioregions, AI innovation. It knows the organisations doing the wo
 who funds them, and what the research says. It keeps reading as new work appears.
 Every answer links back to where it came from.
 
-This repository is a Claude plugin marketplace holding one plugin. Installing it does
-two things at once: it connects Claude to [heynabu.ai](https://heynabu.ai),
-and it teaches it how to read the experts — search every one before narrowing, cite what
-it found, name what the sources do not cover, and never invent an organisation.
+This repository is a Claude plugin marketplace holding one plugin. It carries two
+things: the connector to [heynabu.ai](https://heynabu.ai), and a skill that teaches
+Claude how to read the experts — search every one before narrowing, cite what it
+found, name what the sources do not cover, and never invent an organisation.
 
 ## Install
 
-**In claude.ai or the desktop app.** Customize → Plugins → Browse plugins → add this
-repository as a marketplace, then install **Hey Nabu**. Plugins are on Pro, Max, Team
-and Enterprise.
+**In claude.ai or the desktop app.** Add the connector first, from
+[heynabu.ai/connect](https://heynabu.ai/connect). Its button opens Claude with the
+connector filled in. Then go to Customize → Plugins → Add → Add marketplace, give it
+`heynabu/hey-nabu-plugin`, and add **Hey Nabu**. A plugin never adds its own
+connector, so this order matters: added first, the connector shows as Connected on
+the plugin's page. Plugins are on Pro, Max, Team and Enterprise.
 
 **In Claude Code.**
 
@@ -29,12 +32,8 @@ Either way, Claude sends you to sign in at Hey Nabu and approve. It is then give
 token of its own that reads exactly what you read, for an hour at a time, renewing
 itself until you take it back on the site's **Add to Claude** page. Nothing to paste.
 
-The connector can land switched off after you approve it — check
-**Settings → Connectors** if Claude says it cannot see these sources. If you would
-rather skip that step, [heynabu.ai/connect](https://heynabu.ai/connect) also has the
-connector on its own: paste one address, or run `claude mcp add`, and it is live the
-moment you approve it — no marketplace, no plugin, just without the skill in chat on
-the web.
+The connector works without the plugin. The plugin adds the skill, which is the only
+way to get it into a chat.
 
 You need an account. Each expert is built for the organisation it was commissioned by,
 and some are open to everyone.
