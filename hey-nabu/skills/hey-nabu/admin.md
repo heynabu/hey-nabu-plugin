@@ -41,9 +41,10 @@ trial says they belong; dismiss the rest; a dismissed source can be found again.
 there. Then `map`, `dynamics`, `value_network`, `organisations`, `networks`, `funders`,
 `initiatives`, `events` or `research`. Every record comes with its review state, so you see
 the ones waiting as well as the ones being read. `dynamics` is how the loops work on each
-other: the regimes that restore themselves when pushed, the known traps the map matches and
-the arm each is missing, and what strengthens, weakens, stops or switches each loop. A
-reading whose `basis` is `inference` is the run's reading, not the register's finding.
+other: the regimes that restore themselves when pushed, what moves between two regimes, the
+known traps the map matches and the arm each is missing, and what strengthens, weakens, stops
+or switches each loop. A reading whose `basis` is `inference` is the run's reading, not the
+register's finding.
 
 `revise_record` changes what one record says: its title, its wording, its dates. On a
 state, that includes what it measures, how it reads now and what it aims for. On an edge, it
