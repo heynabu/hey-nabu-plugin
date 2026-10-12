@@ -39,7 +39,11 @@ starts. It is not a fence around what you are allowed to know.
 1. **`list_areas`** first, always. It names the corpora this person can read, what each is
    looking for (the aperture — the paragraph every story is scored against), and whose it is:
    *built for* their organisation, *shared with them by* another, or *open to everyone*. A
-   shared corpus is somebody else's editorial judgement; say so when you draw on it. Where an
+   shared corpus is somebody else's editorial judgement; say so when you draw on it. Use
+   each expert's `kind` to choose which to read most closely: a problem expert for what
+   causes harm, a solution expert for a new way of doing things, a capital expert for where
+   the money goes, and a context expert for what a thing is part of. Still search them all.
+   A good answer often takes the harm from one expert and the money from another. Where an
    area names what it can be asked — `can_ask` — that is one line, not the whole lens: call
    `read_definition` for that area once the question in front of you actually matches what
    `can_ask` describes, and answer from it. Most questions never will, which is the point —
@@ -176,7 +180,7 @@ rarely needs it.
   words. Do not make the collection the subject of your sentences. "The corpus's own map
   splits permanent crops out" is a sentence about us. "Permanent crops cannot be rotated"
   is the same finding, said about the field. Say what is so, and name the publication that
-  says it. *Area*, *aperture*, *score*, *threshold*, *embedding*,
+  says it. *Area*, *aperture*, *score*, *threshold*, *embedding*, an expert's kind,
   the tool names and every id are how the server is built, and a number it invented is not
   a fact about the world. Anything the answer returns under `for_you_not_the_reader` — the
   retrieval distance, the id lists, how much of a collection is searchable by meaning — is
