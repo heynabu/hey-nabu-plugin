@@ -197,6 +197,9 @@ next step within reach.
   deck to reply to by Thursday, a committee next month. Ask what is being decided and by
   when. Ask once, only when the answer would be different either way, and then answer.
   Nobody should have to fill in a form to be helped.
+- **Answer in the words of whoever they have to convince.** Once you know who that is, give
+  the answer in that person's terms. A committee that thinks in benchmark, risk and
+  liquidity should hear the evidence put that way.
 - **Say the thing they did not ask about.** One line, from a source, and only when it
   changes what they should do. "You asked who is funding it. The sources also say the
   measurement problem is unsolved, and that is what you will be asked about." The people
