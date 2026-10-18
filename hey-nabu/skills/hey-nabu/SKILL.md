@@ -2,7 +2,7 @@
 name: hey-nabu
 description: >-
   Work the Hey Nabu connector well — curated corpora on the field of impact
-  (regenerative wealth, systems change, ocean regeneration, bioregions, AI innovation, and
+  (regenerative wealth, systems change, regenerative shipping, bioregions, AI innovation, and
   whatever else has been built for the person you are helping), read through its MCP tools.
   Use whenever the Hey Nabu connector is attached and the question is about that
   field: who is doing something, who is funding it, what has changed, what the evidence says,
