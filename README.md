@@ -10,7 +10,9 @@ Every answer links back to where it came from.
 This repository is a Claude plugin marketplace holding one plugin. It carries two
 things: the connector to [heynabu.ai](https://heynabu.ai), and a skill that teaches
 Claude how to read the experts — search every one before narrowing, cite what it
-found, name what the sources do not cover, and never invent an organisation.
+found, name what the sources do not cover, and never invent an organisation. The
+skill is short: it tells Claude to fetch the full version from the connector, so
+what Claude is taught stays current between versions of this plugin.
 
 ## Install
 
@@ -62,19 +64,16 @@ organisations and documents rather than answering thinly from the nearest source
 
 | | |
 |---|---|
-| `hey-nabu/skills/hey-nabu/SKILL.md` | How to work the sources well |
-| `hey-nabu/skills/hey-nabu/admin.md` | How to change an expert. Only an administrator's Claude reads it |
+| `hey-nabu/skills/hey-nabu/SKILL.md` | Tells Claude to read the current skill from the connector |
 | `hey-nabu/.mcp.json` | The connector — one HTTP server, OAuth at first use |
 
-The skill is generated from the one the app serves at
-[heynabu.ai/skill/SKILL.md](https://heynabu.ai/skill/SKILL.md). That address is open
-without signing in, on purpose, so the skill can always be fetched fresh. The plugin
-still carries a copy, because a plugin holds its skill as a file, not as a link. A test
-holds the skill to the server's actual tools: it names every one and invents none. That
-is why this copy is generated rather than hand-written. A skill that describes a tool
-the server no longer has is worse than no skill, and a copy taken by hand goes stale the
-day after it is taken. If the server moves on, the copy tells Claude to fetch the new
-one from that address. Refresh with `claude plugin marketplace update hey-nabu`.
+The full skill is served two ways: by the connector's `read_guide` tool, which is what
+this plugin's skill calls, and at [heynabu.ai/skill/SKILL.md](https://heynabu.ai/skill/SKILL.md),
+open without signing in so anybody can read it first. Both are the one copy the app
+keeps, and a test holds it to the server's actual tools: it names every one and invents
+none. So a change to the skill reaches every Claude that reads it from the connector the day it ships, with
+no new version of this plugin. The plugin's own short skill changes rarely; refresh it
+with `claude plugin marketplace update hey-nabu`.
 
 ## Support
 
