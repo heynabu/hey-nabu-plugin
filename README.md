@@ -21,6 +21,13 @@ connector filled in. Then go to Customize → Plugins → Add → Add marketplac
 connector, so this order matters: added first, the connector shows as Connected on
 the plugin's page. Plugins are on Pro, Max, Team and Enterprise.
 
+**On a Team or Enterprise plan.** Most members cannot add a connector or a plugin
+themselves. The Owner adds both for everyone from
+[heynabu.ai/team](https://heynabu.ai/team): the connector, then the plugin as a zip,
+set to *Installed by default*. An organisation cannot add this repository itself,
+because Claude syncs only private ones. Each member then connects Hey Nabu under
+Customize → Connectors.
+
 **In Claude Code.**
 
 ```bash
