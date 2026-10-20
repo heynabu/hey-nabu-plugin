@@ -39,7 +39,7 @@ claude plugin install hey-nabu@hey-nabu
 
 Either way, Claude sends you to sign in at Hey Nabu and approve. It is then given a
 token of its own that reads exactly what you read, for an hour at a time, renewing
-itself until you take it back on the site's **Add to Claude** page. Nothing to paste.
+itself until you take it back on the site's **Add Nabu to your AI** page. Nothing to paste.
 
 The connector works without the plugin. The plugin adds the skill, which is the only
 way to get it into a chat.
