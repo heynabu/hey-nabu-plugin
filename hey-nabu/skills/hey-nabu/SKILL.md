@@ -1,24 +1,23 @@
 ---
 name: hey-nabu
 description: >-
-  Work the Hey Nabu connector well — curated corpora on the field of impact
-  (regenerative wealth, systems change, regenerative shipping, bioregions, AI innovation, and
-  whatever else has been built for the person you are helping), read through its MCP tools.
-  Use whenever the Hey Nabu connector is attached and the question is about that
-  field: who is doing something, who is funding it, what has changed, what the evidence says,
-  whether a pitch is new. Teaches the discipline the server expects — search wide before you
-  narrow, expand what matters, cite the source, name what the sources do not cover, and ask
-  us to look into a gap — and, for a platform administrator, how to curate a corpus through
-  the same connector. Never invents an organisation.
+  Use Hey Nabu, researched experts on making change: regenerative wealth, business, farming
+  and infrastructure, systems change, philanthropy, bioregions, shipping, AI, and whatever
+  else was built for this person. Use it whenever the connector is attached and somebody asks
+  how to make a difference: who is doing something, who pays, what changed, whether a pitch is
+  new, or what they could do with money, time, a skill or a community, such as "how can I
+  help with climate?". Use it too for questions about Hey Nabu: "what is this?", "what can I
+  ask?", "why use this, not a generic AI?". An administrator also learns to change experts.
+  Never invents an organisation.
 ---
 
 # Hey Nabu
 
-How to use these sources well changes as we improve it. So the Hey Nabu
-connector serves it, and this file only points there.
+How to use these sources well changes often. So the Hey Nabu connector
+serves it, and this file only points there.
 
-**Before you answer from Hey Nabu, call `read_guide` once in the conversation,
-and follow what it returns.** It is the full version of this skill, as the
+**Before you answer from Hey Nabu, or about it, call `read_guide` once in the
+conversation, and follow what it returns.** It is the full version of this skill, as the
 connector has it today. If your token can change experts, it also says how to
 do that.
 
@@ -38,6 +37,7 @@ https://heynabu.ai/install.md, and offer to follow it yourself.
 If the call fails, keep to these until it works:
 
 - Call `list_areas` first, and search every expert before you narrow.
-- Cite the publication and the date for each thing you say.
-- Say plainly what the sources do not cover, and look for the rest yourself.
+- Lead with what the sources hold, and cite the publication and the date.
+- Say in one line what the sources do not cover, and look for the rest yourself.
+- Never make the connector or its matches the subject of a sentence.
 - Never invent an organisation.
