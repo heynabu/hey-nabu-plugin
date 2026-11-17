@@ -2,8 +2,8 @@
 
 Ask Claude about the field of impact and get an answer you can check.
 
-Each expert has read one field — regenerative wealth, systems change, ocean
-regeneration, bioregions, AI innovation. It knows the organisations doing the work,
+Each expert has read one field — regenerative wealth, systems change,
+regenerative shipping, bioregions, AI innovation. It knows the organisations doing the work,
 who funds them, and what the research says. It keeps reading as new work appears.
 Every answer links back to where it came from.
 
