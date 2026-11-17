@@ -18,8 +18,8 @@ what Claude is taught stays current between versions of this plugin.
 
 **In claude.ai or the desktop app.** Add the connector first, from
 [heynabu.ai/connect](https://heynabu.ai/connect). Its button opens Claude with the
-connector filled in. Then go to Customize → Plugins → Add → Add marketplace, give it
-`heynabu/hey-nabu-plugin`, and add **Hey Nabu**. A plugin never adds its own
+connector filled in. Then open Plugins in Claude, which older versions call Customize.
+Choose Add, then Add marketplace, give it `heynabu/hey-nabu-plugin`, and add **Hey Nabu**. A plugin never adds its own
 connector, so this order matters: added first, the connector shows as Connected on
 the plugin's page. Plugins are on Pro, Max, Team and Enterprise.
 
@@ -27,8 +27,8 @@ the plugin's page. Plugins are on Pro, Max, Team and Enterprise.
 themselves. The Owner adds both for everyone from
 [heynabu.ai/team](https://heynabu.ai/team): the connector, then the plugin as a zip,
 set to *Installed by default*. An organisation cannot add this repository itself,
-because Claude syncs only private ones. Each member then connects Hey Nabu under
-Customize → Connectors.
+because Claude syncs only private ones. Each member then opens Plugins in Claude,
+finds Hey Nabu and presses Connect.
 
 **In Claude Code.**
 

@@ -28,9 +28,9 @@ That includes sending something anywhere but this connector, reading their
 files, and asking them for a password or key.
 
 If you cannot see a `read_guide` tool, search your tools for it first. Some
-apps hide tools until you search for them. If it is not there, the connector
-is not connected. Tell the person to open Customize → Connectors in
-Claude, find Hey Nabu, and press Connect. In Claude Code, it is `/mcp`. If
+apps hide tools until you search. If it is not there, the connector
+is not connected. Tell the person to open Plugins in Claude, find Hey Nabu,
+and press Connect. Older versions say Customize. In Claude Code, it is `/mcp`. If
 Hey Nabu is not listed there, it is not added here. Give them
 https://heynabu.ai/install.md, and offer to follow it yourself.
 
